@@ -1,0 +1,11 @@
+[package]
+name = "vulkano-learn"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+vulkano = "0.34.0"
+vulkano-shaders = "0.34.0"
+shaderc-sys = { version = "0.8.3", features = ["build-from-source"] }
+winit = "0.28.0"
+image = "0.24"
